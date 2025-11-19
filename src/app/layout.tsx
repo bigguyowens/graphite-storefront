@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pulse Supply | Modern Commerce Starter",
+  title: "Graphite & Co. | Office Supply Commerce Starter",
   description:
-    "Next.js commerce starter with Tailwind CSS, MongoDB + GraphQL backend, and swipe-ready merchandising.",
+    "Shop curated office essentials—from ergonomic seating to lighting and storage—through the Graphite & Co. demo storefront.",
 };
 
 export default function RootLayout({
