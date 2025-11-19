@@ -1,17 +1,22 @@
 {
-  "name": "tempapp",
+  "name": "nextjs-ecomm",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "graphql": "^16.12.0",
+    "graphql-request": "^7.3.3",
+    "graphql-yoga": "^5.16.2",
+    "mongodb": "^7.0.0",
     "next": "16.0.3",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "swiper": "^12.0.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
